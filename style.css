@@ -561,7 +561,7 @@ body {
         height: 100vh;
         background-color: #E3E6F3;
         box-shadow: 0 5rem 10rem rgba(0, 0, 0, 0.1);
-        padding: 12vh  0 0 2vw;
+        padding: 5vh  0 0 2vw;
         width: 45%;
         transition: .8s;
     }
