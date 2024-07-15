@@ -17,12 +17,11 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #E3E6f3;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    padding: 20px 80px;
+    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.06);
+    padding: 1.25rem 5rem;
     z-index: 999;
     position: sticky;
     top: 0;
-    left: 0;
 }
 
 .nav-links ul {
@@ -33,7 +32,6 @@ body {
     list-style: none;
     padding: 0 1.3rem;
     position: relative;
-    /* border: 2px solid black; */
 }
 
 .nav-links ul li a {
@@ -54,11 +52,10 @@ body {
 .nav-links ul li a:hover:before {
     content: "";
     width: 40%;
-    height: 2px;
+    height: .1rem;
     background: #088178;
     position: absolute;
     bottom: -.2rem;
-    /* left:20px; */
 }
 
 
@@ -66,7 +63,6 @@ body {
 .hero {
     background-image: url("imges/hero4.png");
     height: 90vh;
-    width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
     display: flex;
